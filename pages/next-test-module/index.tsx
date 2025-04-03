@@ -7,7 +7,7 @@ import {STATIC_DATA_REVALIDATE_PERIOD_SECONDS} from "@/app/constants";
 import Maintenance from "@/app/components/Maintenance/Maintenance";
 import getMaintenanceMode from "@/app/utils/getMaintenanceMode";
 import {GetStaticProps} from "next";
-import getMaintenanceMode from "@/app/omponents/NextTestComponent";
+import NextTestComponent from "@/app/components/NextTestComponent";
 
 export const getStaticProps: GetStaticProps = async (context) => {
     return {
